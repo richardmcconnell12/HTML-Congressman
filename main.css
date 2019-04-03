@@ -7,6 +7,7 @@ h1 {
     border: 3px solid;
     border-radius: 10px;
     border-color: rgb(89, 165, 196);
+    background-color: blanchedalmond
 }
 
 img {
@@ -14,9 +15,37 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    border-radius: 30px;
 }
 
 p {
     text-align: center;
+    margin-left: .5rem;
 }
 
+.article-div {
+    margin-top: 15px;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.sub-list-header {
+    text-decoration: underline;
+}
+
+.article-div > ul, li, h4, h2 {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.legislative-div {
+    text-align: center;
+    text-decoration: underline;
+    margin-right: 3rem;
+}
+
+a:link, a:visited {
+    color: blue;
+}
